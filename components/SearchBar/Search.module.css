@@ -1,0 +1,38 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.coin_search {
+  margin-bottom: 60px;
+  display: flex;
+  width: 300px;
+}
+
+.coin_input {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 16px;
+  border-radius: 4px;
+  outline: none;
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  display: block;
+  margin: auto;
+}
+
+.coin_input::placeholder {
+  color: rgb(83, 83, 83);
+}
+
+@media (max-width: 600px) {
+  .coin_input {
+    width: 100%;
+    flex-direction: column;
+  }
+}
